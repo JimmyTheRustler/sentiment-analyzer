@@ -1,0 +1,20 @@
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\sentiment analyzer.exe
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\sentiment analyzer.deps.json
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\sentiment analyzer.runtimeconfig.json
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\sentiment analyzer.runtimeconfig.dev.json
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\sentiment analyzer.dll
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\sentiment analyzer.pdb
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.csprojAssemblyReference.cache
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.AssemblyInfoInputs.cache
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.AssemblyInfo.cs
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.csproj.CoreCompileInputs.cache
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.dll
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.pdb
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.genruntimeconfig.cache
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\Azure.AI.TextAnalytics.dll
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\Azure.Core.dll
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Git\sentiment analyzer\obj\Debug\netcoreapp3.1\sentiment analyzer.csproj.CopyComplete
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\Reddit.NET.dll
+E:\Git\sentiment analyzer\bin\Debug\netcoreapp3.1\RestSharp.dll
