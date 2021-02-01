@@ -61,7 +61,9 @@ namespace sentiment_analyzer
 
         static void SentimentAnalysisExample(TextAnalyticsClient client)
         {
-            string inputText = "So I (74M) was recently hit by a car (2014 Honda) and died. My wife (5F) organized me a funeral (cost $2747) without asking me (74M) at all. I (74M) was unable to make it because I (74M) was dead (17 days). At the funeral I heard my dad (15M) and other family members talking about how they wish I could be there and now I feel bad for not showing up. AITA?";
+            string inputText = "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
+
+The test is used to measure a student's aerobic capacity as part of the FitnessGram assessment. Students run back and forth as many times as they can, each lap signaled by a beep sound. The test get progressively faster as it continues until the student reaches their max lap score.";
             DocumentSentiment documentSentiment = client.AnalyzeSentiment(inputText);
             Console.WriteLine($"Document sentiment: {documentSentiment.Sentiment}\n");
 
