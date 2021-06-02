@@ -19,7 +19,7 @@ namespace sentiment_analyzer
     class Program
     {
         private static readonly AzureKeyCredential credentials = new AzureKeyCredential("");
-        private static readonly Uri endpoint = new Uri(""); 
+        private static readonly Uri endpoint = new Uri("https://subredditsentiment.cognitiveservices.azure.com/"); 
         private static string redditAppID = "";
         private static string redditRefreshToken = "";
         private static string redditSecret = "";
@@ -61,10 +61,9 @@ namespace sentiment_analyzer
 
         static void SentimentAnalysisExample(TextAnalyticsClient client)
         {
-            string inputText = "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
-
-The test is used to measure a student's aerobic capacity as part of the FitnessGram assessment. Students run back and forth as many times as they can, each lap signaled by a beep sound. The test get progressively faster as it continues until the student reaches their max lap score.";
-            DocumentSentiment documentSentiment = client.AnalyzeSentiment(inputText);
+            string inputText = "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The test is used to measure a students aerobic capacity as part of the FitnessGram assessment. Students run back and forth as many times as they can, each lap signaled by a beep sound. The test get progressively faster as it continues until the student reaches their max lap score.";
+            
+			DocumentSentiment documentSentiment = client.AnalyzeSentiment(inputText);
             Console.WriteLine($"Document sentiment: {documentSentiment.Sentiment}\n");
 
             foreach (var sentence in documentSentiment.Sentences)
